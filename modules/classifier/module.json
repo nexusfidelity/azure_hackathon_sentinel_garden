@@ -1,0 +1,14 @@
+{
+    "$schema-version": "0.0.1",
+    "description": "",
+    "image": {
+        "repository": "potatopi.azurecr.io/classifier",
+        "tag": {
+            "version": "0.2.17",
+            "platforms": {
+                "amd64": "./amd64.Dockerfile"
+            }
+        }
+    },
+    "language": "python"
+}
